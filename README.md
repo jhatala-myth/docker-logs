@@ -3,7 +3,7 @@ Centralized docker logs collection with Fluentd + ELK
 
 ![flow](/fluentd+elk.drawio.png)
 
-## docker container logging example for docker-compose
+### docker container logging config example for docker-compose
 ```yaml
 logging:
   driver: "fluentd"
