@@ -13,3 +13,6 @@ logging:
     fluentd-retry-wait: 5
     tag: myaap_tag
 ```
+more details: 
+- [docker](https://docs.docker.com/config/containers/logging/fluentd/)
+- [fluentd](https://docs.fluentd.org/output/elasticsearch)
