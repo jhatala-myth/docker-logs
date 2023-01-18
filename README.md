@@ -9,7 +9,7 @@ logging:
   driver: "fluentd"
   options:
     fluentd-address: 192.168.1.1:24224
-    fluentd-async: true
+    fluentd-async: "true"
     fluentd-retry-wait: 5
     tag: myaap_tag
 ```
